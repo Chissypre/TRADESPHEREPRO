@@ -1,0 +1,16 @@
+/* Ensure the html and body take up full height */
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100%; /* Ensure the full height of the page is used */
+  }
+  
+  /* Prevent horizontal overflow */
+  body {
+    overflow-x: hidden;
+  }
+  
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
